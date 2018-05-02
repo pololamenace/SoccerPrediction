@@ -1,0 +1,31 @@
+﻿1. Have a platform where we can share and update the code
+   * github ? 
+1. Features Selection
+   * make a real list of all our features and answer questions like:
+      1. how to we uses the bet operators odds?
+      2. Do we start with small number of features ( like only the averages of our csv files and team vectors)? to then start including more for better accuracy? 
+1. Data Preprocessing
+   * Benji , already has some code ⇒ share it on github 
+   * Finish the preprocessing 
+1. Entity Embedding
+   * Benji has done already for the team names
+   * Should we do it for others features? 
+   * How can we improve what Benji did? 
+1. Make the ANN 
+   * Benji also has code right? for basket at least
+   * Question:
+      1. Which library?
+      2. How many ANN do we make ? 2 at least one with embedding and one without.
+      3. If the entity embedding is done before is the code really different for this 2 ANN?
+      4. what does give our ANN , a probability of winning or just a classification ( win, draw, loose)? 
+1. Evaluation of accuracy
+   * How do we evaluate the  accuracy of our best ANN?
+      1. compare with basic models ( like the first in championship beat any teams, and the second any teams except the first …) 
+      2. compare our results with experts prediction,  it is possible to get famous expert prediction for French League, http://www.pronostics.fr
+      3. how to compare with bet operators? The professors said that they use good statistics model, and she is interested in this comparisons.
+1. Our contribution
+   * How do we evaluate the interest of entity embedding?
+      1. comparison with ANN without embedding, with suffled and unshuffled data
+      2. ? 
+   * Make descriptive insights on our entity embedding: try to give valuable informations on teams, may be clutering? like this kind of team loose against this kind of team? for example this season Paris lost many times against the weakest teams
+   * Conclude about our approach, talking about our accuracy… is it a good approach ? do there is ways to improve our approach…?
